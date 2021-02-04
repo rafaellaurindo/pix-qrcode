@@ -1,0 +1,33 @@
+{
+  "name": "pix-qrcode",
+  "version": "0.0.1",
+  "description": "Library that allows to generate BCB Pix payment BR codes.",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaellaurindo/pix-qrcode.git"
+  },
+  "keywords": [
+    "pix",
+    "bcb",
+    "payment",
+    "qrcode"
+  ],
+  "author": {
+    "name": "Rafael Laurindo",
+    "email": "eu@rafaellaurindo.dev",
+    "url": "https://rafaellaurindo.dev/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaellaurindo/pix-qrcode/issues"
+  },
+  "homepage": "https://github.com/rafaellaurindo/pix-qrcode#readme",
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
