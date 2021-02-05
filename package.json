@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Library that allows to generate BCB Pix payment BR codes.",
   "main": "lib/index.js",
-  "private": "true",
   "scripts": {
     "postversion": "git push && git push --tags"
   },
